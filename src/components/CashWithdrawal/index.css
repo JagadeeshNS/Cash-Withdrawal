@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.app-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.card-container {
+  background-color: #150b3e;
+  width: 55vw;
+  border-radius: 10px;
+  padding: 30px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+* {
+  font-family: 'Roboto';
+}
+.s-profile {
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  padding: 28px;
+  color: #7c3aed;
+  font-weight: bold;
+  font-size: 24px;
+}
+.sarah {
+  color: #c7d2fe;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.your-balance {
+  color: #585076;
+}
+.amount {
+  color: white;
+}
+.your-balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px;
+}
+.rupees {
+  color: #585076;
+  text-align: right;
+  margin-right: 5px;
+}
+.withdraw {
+  color: white;
+}
+.suggestion-msg {
+  color: #585076;
+  font-size: 18px;
+}
